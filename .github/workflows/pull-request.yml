@@ -1,10 +1,10 @@
 name: checkPullRequest
 on: [pull_request]
 jobs:
-  publish:
-    runs-on: ubuntu-20.04
+  pull-request:
+    runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master
-    - run : sudo apt-get --assume-yes install linkchecker 
+    - run: sudo apt-get install -y linkchecker
     - run : sudo apt-get --assume-yes install asciidoctor 
     - run : make all && linkchecker --check-extern ./dist

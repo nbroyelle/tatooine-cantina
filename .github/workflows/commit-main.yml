@@ -4,12 +4,12 @@ on:
     branches:    
       - main
 jobs:
-  publish:
-    runs-on: ubuntu-20.04
+  commit:
+    runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master
     - run : sudo apt-get --assume-yes install asciidoctor 
-    - run : sudo apt-get --assume-yes install linkchecker 
+    - run: sudo apt-get install -y linkchecker
     - run : make all && linkchecker --check-extern ./dist
     - name: Publish
       uses : netlify/actions/cli@master
