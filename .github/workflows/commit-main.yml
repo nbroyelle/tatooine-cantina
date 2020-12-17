@@ -9,7 +9,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - run : sudo apt-get --assume-yes install asciidoctor 
-    - run : sudo apt-get --assume-yes install linkchecker 
     - run : make all && linkchecker --check-extern ./dist
     - name: Publish
       uses : netlify/actions/cli@master
