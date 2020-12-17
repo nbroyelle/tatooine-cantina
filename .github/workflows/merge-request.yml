@@ -7,4 +7,4 @@ jobs:
     - uses: actions/checkout@master
     - run : sudo apt-get --assume-yes install linkchecker 
     - run : sudo apt-get --assume-yes install asciidoctor 
-    - run : make main.html && linkchecker --check-extern ./main.html
+    - run : make all && linkchecker --check-extern ./main.html
