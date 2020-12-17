@@ -7,6 +7,7 @@ jobs:
     - uses: actions/checkout@master
     - run : sudo apt-get --assume-yes install asciidoctor 
     - run : make all
+    - run : netlify login
     - name: Publish
       uses : netlify/actions/cli@master
       with:
@@ -14,4 +15,3 @@ jobs:
       env:
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID}}
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN}}
-    - run : Publish
