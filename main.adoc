@@ -1,6 +1,8 @@
+image::images/jabba.png[welcome,300,200]
+
 = Menu :
 
-image::images/diner.jpg[aragorn,300,200]
+image::images/diner.jpg[diner,300,200]
 
 * Encore un peu de Lembas
 * Et encore un peu de Lembas
@@ -10,4 +12,4 @@ image::images/ragout.png[aragorn,300,200]
 
 == Bon Appétit
 
-image::images/manger.png[aragorn,300,200]
+image::images/manger.png[manger,300,200]
