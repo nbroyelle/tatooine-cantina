@@ -8,4 +8,6 @@ image::images/diner.jpg[aragorn,300,200]
 
 image::images/ragout.png[aragorn,300,200]
 
+== Bon Appétit
+
 image::images/manger.png[aragorn,300,200]
