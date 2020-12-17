@@ -1,7 +1,11 @@
 = Menu :
 
+image::images/diner.jpg[aragorn,300,200]
+
 * Encore un peu de Lembas
 * Et encore un peu de Lembas
 * Du bon ragoût pour Aragorn.
 
 image::images/ragout.png[aragorn,300,200]
+
+image::images/manger.png[aragorn,300,200]
