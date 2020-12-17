@@ -5,5 +5,4 @@
 * Et encore un peu de Lembas
 * Du bon ragoût pour Aragorn.
 
-[source,bash]
-echo "hello"
+image::images/ragout.png[aragorn,300,200]
